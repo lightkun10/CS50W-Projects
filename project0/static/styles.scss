@@ -1,0 +1,14 @@
+$emerald-green: #5CDB95;
+$imperial-blue: #05386B;
+
+body {
+    background-color: $emerald-green;
+
+    h1 {
+        color: $imperial-blue;
+    }
+
+    nav {
+        background-color: $emerald-green;
+    }
+}
