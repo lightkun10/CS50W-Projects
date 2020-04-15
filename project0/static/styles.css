@@ -45,8 +45,23 @@ body .site-main .site-banner .banner-links #social-links li {
   padding: 1rem 20rem;
 }
 .header_area .main-menu .navbar .nav-link {
-  color: #05386B;
   font-weight: bold;
+}
+
+@media (min-width: 601px) {
+  .site-banner {
+    margin-top: 5em;
+    margin-left: 10em;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #05386B;
+  }
+  body .site-main .site-banner .site-title h1 #personal-name {
+    color: #5CDB95;
+    font-family: "roboto-black";
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

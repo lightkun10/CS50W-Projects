@@ -69,9 +69,33 @@ body {
             padding: 1rem 20rem;
 
             .nav-link {
-                color: $imperial-blue;
+                // color: #EDF5E1;
                 font-weight: bold;
             }
         }
     }
-} 
+}
+
+@media (min-width: 601px) {
+    .site-banner {
+        margin-top: 5em;
+        margin-left: 10em;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: $imperial-blue;
+
+        .site-main {
+            .site-banner {
+                .site-title h1 {
+                    #personal-name {
+                        color: $emerald-green;
+                        font-family: 'roboto-black';
+                    }
+                }
+            }
+        }
+    }
+}
